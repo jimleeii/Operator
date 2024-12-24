@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Operator</RootNamespace>
+    <AssemblyName>Operator</AssemblyName>
+    <PackageId>Operator</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Wei Li</Authors>
+    <Product>Operator</Product>
+    <Description>A operator project that uses minimal API structure.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+</Project>
